@@ -95,3 +95,26 @@ h1 {
 p {
   font-size: 19.2px; 
 }
+
+.delivery-label {
+  display: block;
+  margin: 20px 0;
+  font-size: 18px;
+  color: #5c3118;
+}
+
+select {
+  padding: 10px;
+  margin: 20px 5px;
+  border: 2px solid #d63600;
+  border-radius: 8px;
+  background: white;
+  font-size: 16px;
+  color: #5c3118;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #8b0000;
+}
