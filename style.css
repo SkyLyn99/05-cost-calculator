@@ -55,7 +55,16 @@ img {
   color: #8b0000;
   font-weight: bold;
 }
+#delivery {
+  margin-bottom: 15px;
+}
 
+label[for="delivery"] {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #5c3118;
+}
 button {
   background: #d63600;
   color: white;
@@ -94,4 +103,21 @@ h1 {
 
 p {
   font-size: 19.2px; 
+}
+
+#pizza-size {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #d63600;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #5c3118;
+  background: white;
+  box-sizing: border-box;
+}
+
+#pizza-size:focus {
+  outline: none;
+  border-color: #8b0000;
 }
